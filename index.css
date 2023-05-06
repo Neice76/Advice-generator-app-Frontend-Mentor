@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --background-color: hsl(218, 23%, 16%);
+    --quote-background: hsl(217, 19%, 24%);
+    --primary-color: hsl(193, 38%, 86%);
+    --secondary-color: hsl(150, 100%, 66%);
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--background-color);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#adviceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 0.8em;
+    background-color: var(--quote-background);
+    border-radius: 10px;
+}
+
+#adviceNumber {
+    color: var(--secondary-color);
+    font-size: 10px;
+}
+
+#adviceText {
+    color: var(--primary-color);
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+#divider {
+    margin-top: 35px;
+}
+
+#divider > img {
+    width: 400px;
+}
+
+#diceButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    padding: 15px;
+    margin: 10px 0px -40px;
+    border-radius: 60px;
+    background-color: var(--secondary-color);
+}
+
+#diceButton > img {
+    width: 20px;
+}
+
+#diceButton:hover {
+    box-shadow: 1px 1px 40px var(--secondary-color);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--primary-color);
+}
+
+.attribution a { 
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
