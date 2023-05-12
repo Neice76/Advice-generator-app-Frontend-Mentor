@@ -87,11 +87,16 @@ body {
     }
 
     #adviceContainer {
-        width: 300px;
+        margin-right: 5px;
+        width: 250px;
         padding: 2em;
     }
 
     #divider > img {
         width: 300px;
+    }
+
+    .attribution { 
+        font-size: 10px;
     }
 }
