@@ -67,6 +67,7 @@ body {
 .attribution { 
     position: fixed;
     bottom: 1em;
+    margin: 0px 45px;
     font-size: 11px; 
     text-align: center; 
     color: var(--primary-color);
